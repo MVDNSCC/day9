@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Miguel's Form</title>
+</head>
+
+<body>
+<h1>Miguels Form</h1>
+
+
+
+    <form action="mailto:W0468751@campus.nscc.ca?subject=From%20our%20Website" 
+
+    method="post" enctype="text/plain">
+
+    <table style="width:100%">
+        <tr>
+          <th><br>
+            "write your first name and last name:"
+            <br>
+                <input type="text" name="YourName" minlength="2" required="required" size="50"></th>
+        </tr>
+        <tr>
+          <td>"Put your age here"
+            <input type="number" name="age" id="age" min="16" max="99" step="1" required="required"></td>
+        </tr>
+        <tr>
+          <td>"pick a color"
+            <input type="color" name="color" id="color"></td>
+        </tr>
+        <tr>
+          <td><label for="Date">Today's Date:</label>
+            <input type="date" id="Date" name="TDate" required="required"></td>
+        </tr>
+        <tr>
+          <td>"put your phone number here" 
+            <input name="tel1" type="tel" pattern="[0-9]{3}" placeholder="###" size="1"> 
+            <input name="tel2" type="tel" pattern="[0-9]{3}" placeholder="###" size="1"> 
+            <input name="tel3" type="tel" pattern="[0-9]{4}" placeholder="####" size="1"></td>
+        </tr>
+        <tr>
+            <td> "What city do you live in?"<input id="city" type="text" name="City" minlength="2" maxlength="3" placeholder="Ex: HFX"></td>
+        </tr>
+        <tr>
+            <td>"Select your Province"
+                <select name="Province">
+                    <option value=””>Alberta</option>
+                    <option value=””>British Colombia</option>
+                    <option value=””>Manitoba</option>
+                    <option value=””>Ontario</option>
+                    <option value=””>Nova scotia</option>
+                    <option value=””>PEI</option>
+                    <option value=””>New Brunswick</option>
+                    <option value=””>Other</option>
+                    </select></td>
+        </tr>
+        <tr>
+            <td>    <input type="submit" value="send">
+                <input type="reset" value="reset"></td>
+        </tr>
+
+      </table>
+</body>
+<!--Last edited 7/15/2021 by:<Miguel Vidito-Davis-->
